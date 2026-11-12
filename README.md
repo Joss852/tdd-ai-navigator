@@ -86,3 +86,7 @@ skills/
   story/SKILL.md
   pair/SKILL.md
 ```
+
+## License
+
+[MIT](LICENSE)
