@@ -1,0 +1,16 @@
+{
+  "name": "tdd-ai-navigator",
+  "owner": {
+    "name": "Josseph Morales"
+  },
+  "metadata": {
+    "description": "Skills for a Vertical Slices + TDD + AI pair programming workflow in Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "tdd-ai-navigator",
+      "source": "./",
+      "description": "Vertical Slices + TDD + AI pair programming workflow: backlog -> story plan -> red/green/refactor implementation of production-ready code."
+    }
+  ]
+}

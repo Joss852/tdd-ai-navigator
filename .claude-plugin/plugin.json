@@ -1,0 +1,9 @@
+{
+  "name": "tdd-ai-navigator",
+  "version": "0.1.0",
+  "description": "Vertical Slices + TDD + AI pair programming workflow: backlog -> story plan -> red/green/refactor implementation of production-ready code.",
+  "author": {
+    "name": "Josseph Morales"
+  },
+  "keywords": ["tdd", "vertical-slices", "user-stories", "pair-programming", "agile"]
+}
