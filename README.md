@@ -53,12 +53,21 @@ if there is no test setup or it is ambiguous, it asks you.
 
 ## Install
 
-From inside Claude Code, add this repo as a marketplace and install the plugin:
+Install it once for your user and it is available in every project:
+
+```bash
+claude plugin marketplace add Joss852/tdd-ai-navigator
+claude plugin install tdd-ai-navigator@tdd-ai-navigator --scope user
+```
+
+Or from inside Claude Code:
 
 ```
-/plugin marketplace add <path-to-this-repo or github-user/tdd-ai-navigator>
+/plugin marketplace add Joss852/tdd-ai-navigator
 /plugin install tdd-ai-navigator@tdd-ai-navigator
 ```
+
+Update to the latest version with `claude plugin marketplace update tdd-ai-navigator`.
 
 To try it without installing:
 
